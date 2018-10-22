@@ -6,5 +6,4 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   # ...
-  version = ">= 1.20.0"
 }
